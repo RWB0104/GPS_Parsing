@@ -33,13 +33,13 @@ NovAtel 수신기를 이용하여 일정 시간동안 데이터를 수집함
 
 #### 주요 Protocol  
 
-+ #SATXYZ2A
++ **#SATXYZ2A**  
 각 위성의 PRN, Frequency별 **XYZ좌표 및 오차정보**가 담긴 ASCII Protocol
 
-+ #RANGEA  
++ **#RANGEA**  
 각 위성의 PRN, Frequency별 **Pseudorange 및 거리정보**가 담긴 ASCII Protocol  
 
-+ #BESTXYZA  
++ **#BESTXYZA**  
 **수신기의 XYZ좌표**가 담긴 비교용 ASCII Protocol  
 
 이후 최소제곱법을 이용해 계산
